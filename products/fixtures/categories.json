@@ -1,0 +1,67 @@
+[
+  {
+    "pk": 1,
+    "model": "products.category",
+   
+    "fields": {
+      "name": "gin",
+      "friendly_name": "Gin"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "products.category",
+    "fields": {
+      "name": "rum",
+      "friendly_name": "Rum"
+    }
+  },
+  {
+    "pk": 3,
+    "model": "products.category",
+    "fields": {
+      "name": "sale",
+      "friendly_name": "Sale"
+    }
+  },
+  {
+    "pk": 4,
+    "model": "products.category",
+    "fields": {
+      "name": "tequila",
+      "friendly_name": "Tequila"
+    }
+  },
+  {
+    "pk": 5,
+    "model": "products.category",
+    "fields": {
+      "name": "vodka",
+      "friendly_name": "Vodka"
+    }
+  },
+  {
+    "pk": 6,
+    "model": "products.category",
+    "fields": {
+      "name": "whisky",
+      "friendly_name": "Whisky"
+    }
+  },
+  {
+    "pk": 7,
+    "model": "products.category",
+    "fields": {
+      "name": "craft_beer",
+      "friendly_name": "Craft Beer"
+    }
+  },
+  {
+    "pk": 8,
+    "model": "products.category",
+    "fields": {
+      "name": "bar_equipment",
+      "friendly_name": "Bar equipment"
+    }
+  }
+]

@@ -1,0 +1,1204 @@
+[
+  {
+    "pk": 1,
+    "model": "products.product",
+
+    "fields": {
+      "sku": "pp5001340155",
+      "name": "BOMBAY SAPPHIRE GIN",
+      "description": "The Bombay Sapphire is one of the most famous gins in the world, easily recognised all over the world by their blue bottles. The Bombay Sapphire makes an excellent martini and an even better G&T",
+      "price": 19.50,
+      "category": 1,
+      "rating": 4.6,
+      "abv": 40,
+      "bottle": 70,
+      "image": "bombay_saphire_gin.jpg"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "products.product",
+
+    "fields": {
+      "sku": "pp5001600425",
+      "name": "Gin Mare",
+      "description": "Mediterranean gin distilled in a thirteenth century chapel in an ancient fishing village where every bottle is unique as every year the star product, arbequina olive, changes acidity. Gin Mare is made with a variety of botanicals including rosemary, thyme, basil with lots of zest. This stuff can easily be paired with a vast range of foods and ingredients if you fancy it.",
+      "price": 36.60,
+      "category": 1,
+      "rating": 4.6,
+      "abv": 42.7,
+      "bottle": 70,
+      "image": "gin_mare.jpg"
+    }
+  },
+  {
+    "pk": 3,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001730010",
+      "name": "Hardshore Original GIN 92 proof",
+      "description": "Hardshore Original Gin, is a surprisingly complex gin despite being made with only five botanicals. It is bright and distinctive with leafy notes of fresh rosemary and mint upfront, supported by orris root (iris), coriander and, of course, bold Tuscan juniper. The neutral base is hand-crafted from grain grown on our founder's family farm and provides a smooth, full mouthfeel which allows the gin's distinctive flavor to unfold slowly with each sip. It lights up with tonic and makes what we consider, humbly, to be the worlds greatest negroni, but leave it alone with an ice cube for a truly remarkable experience.",
+      "price": 42.99,
+      "category": 1,
+      "rating": 4.7,
+      "abv": 46,
+      "bottle": 70,
+      "image": "hardshore_gin.jpg"
+    }
+  },
+  {
+    "pk": 4,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001890157",
+      "name": "HENDRICK'S GIN",
+      "description": "The apothecary style bottle alludes to there being something unusual about Hendrick’s. Made in small quantities in two stills in the west coast town of Girvan in Scotland, it’s a blend of two spirits with an addition of unique botanical infusions.",
+      "price": 29.00,
+      "category": 1,
+      "rating": 3.0,
+      "abv": 41.4,
+      "bottle": 70,
+      "image": "hendriks_gin.jpg"
+    }
+  },
+  {
+    "pk": 5,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002111605",
+      "name": "ISLE OF HARRIS GIN",
+      "description": "A well-defined juniper note with pine needles, immediately followed by the fresh citrus notes of bitter orange, lime and grapefruit.  Develops a complex floral note of rose and wallflowers with crushed green herbs, coriander and gooseberry all underpinned by mixed spice.  Sugar Kelp adds to the complexity and richness and gives a dry maritime note.",
+      "price": 40.00,
+      "category": 1,
+      "rating": 5.0,
+      "abv": 45,
+      "bottle": 70,
+      "image": "isle_of_harris_gin.jpg"
+    }
+  },
+  {
+    "pk": 6,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002260206",
+      "name": "Koval Dry Gin",
+      "description": "Gin from Chicago's very own Koval Distillery - which is the first distillery in the city since the days of Prohibition. Beautiful stuff, and with a gorgeous bottle to match! Juniper forward, though it's backed up by fresh white petal fragrance. A handful of peppercorns and cardamom pods give it a dry, spicy kick.",
+      "price": 39.99,
+      "category": 1,
+      "rating": 4.7,
+      "abv": 47,
+      "bottle": 50,
+      "image": "koval_dry_gin.jpg"
+    }
+  },
+  {
+    "pk": 7,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002440521",
+      "name": "Monkey 47 Dry Gin",
+      "description": "An unusual gin from the Black Forest in Germany, Monkey 47 contains a unique ingredient. No, not that! Lingonberries! The 47 comes from the number of botanicals that go into this unique gin, and the fact it's bottled at a healthy 47. It seems that the botanicals speak for themselves, as the gin has received bucketfuls of critical acclaim. Some say less is more, not for Monkey 47!,Predictably complex,this is a robust and powerfulgin with plenty of spice fruit and herb flavours. It's very well structured, and difficult to unpick but a citrus fresh start segues into pine and wood notes for a drying finish.,",
+      "price": 35.0,
+      "category": 1,
+      "rating": 4.4,
+      "abv": 47,
+      "bottle": 50,
+      "image": "monkey_47_gin.jpg"
+    }
+  },
+  {
+    "pk": 8,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002601115",
+      "name": "Native Spirits, Melbourne Classic Gin by Patient Wolf",
+      "description": "“By hand-picking the ingredients that are only grown in New South Wales and individually distilling each botanical, Archie Rose is able to craft an inspiring gin that has a style and flavour profile unique to its home state,” Dave Withers, master distiller for Archie Rose Distilling Co said.A bright and lively gin designed to represent a Mediterranean sea breeze. Fresh lemons and a strong piney juniper are complemented by fresh thyme that rests on a light, floral end note. Created to be the perfect complement to tonic.",
+      "price": 36.99,
+      "category": 1,
+      "rating": 4.5,
+      "abv": 40,
+      "bottle": 50,
+      "image": "native_spirits_gin.jpg"
+    }
+  },
+  {
+    "pk": 9,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002690715",
+      "name": "Purity 34 Craft Nordic Old Tom Organic Gin",
+      "description": "At Purity, Swedish wheat and malted barley are carefully selected without any chemical cultivation or processing. The Nordic Dry Gin celebrates the classic triumvirate of juniper, basil and thyme. The recipe used is based on the historic London Dry Gin, but the recipe goes much further to further enhance the taste experience. Purity's award-winning vodka, distilled 34 times, forms the foundation of the gin, which is then enhanced with the botanicals. Botanicals: juniper, basil, thyme, northern berries, lavender.",
+      "price": 41.99,
+      "category": 1,
+      "rating": 4.7,
+      "abv": 43,
+      "bottle": 70,
+      "image": "purity_ging_34.jpg"
+    }
+  },
+  {
+    "pk": 10,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002701115",
+      "name": "Roku Gin",
+      "description": "An excellent gin from Japan's legendary Suntory - Roku Gin. This expression is made using a selection of botanicals, including six Japanese botanicals that provide a whistle-stop tour of the four seasons. These include sakura leaf and sakura flower for spring, sencha tea and gyokuro tea for summer, sansho pepper for autumn and yuzu peel for winter. Traditional gin botanicals also featured include the likes of juniper, orange peel, lemon peel, coriander and cinnamon, among others.",
+      "price": 33.99,
+      "category": 1,
+      "rating": 4.4,
+      "abv": 43,
+      "bottle": 70,
+      "image": "roku_gin.jpg"
+    }
+  },
+  {
+    "pk": 11,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002761055",
+      "name": "The Botanist Dry Gin",
+      "description": "Made by the good people at Bruichladdich distillery on the Isle of Islay. This expertly crafted gin uses hand foraged botanicals that are native to Islay, including wild Islay Juniper, giving us a fresh taste of the island that's neither a peated nor unpeated whisky. This stunning glass bottle also features the 22 hand-picked botanicals etched in Latin and is best served in a classic Botanist & Tonic , or as a base for your next martini.",
+      "price": 35.99,
+      "category": 1,
+      "rating": 3.0,
+      "abv": 46,
+      "bottle": 70,
+      "image": "botanist_islay_gin.jpg"
+    }
+  },
+  {
+    "pk": 12,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002820069",
+      "name": "Tuckombil Dry Gin",
+      "description": " Pot distilled in small batches with our unique blend of botanicals including juniper, ginger and citrus peels ~ either locally sourced or grown on our organic farm in Tuckombil ~ to create a splendid take on a traditional dry gin. Best enjoyed on balmy subtropical evenings with a chorus of crickets, a dash of tonic, chunks of ice & a slice of your favourite citrus… But really, anyhoo will do.",
+      "price": 32.99,
+      "category": 1,
+      "rating": 4.6,
+      "abv": 42,
+      "bottle": 50,
+      "image": "tuckombil_gin.jpg"
+    }
+  },
+  {
+    "pk": 13,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002820147",
+      "name": "Whitley Neill Gooseberry Gin",
+      "description": " Inspired by English Countryside Gooseberries ripened in the summer sun. A touch of sweetness on the palate, followed by a small hint of Peppery Spice. A delicious, vibrant Handcrafted Gin Distilling for 8 Generations.",
+      "price": 29.0,
+      "category": 1,
+      "rating": 3.2,
+      "abv": 43,
+      "bottle": 70,
+      "image": "whitley_niel_gooseberry_gin.jpg"
+    }
+  },
+  {
+    "pk": 14,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002910572",
+      "name": "Woody Creek Gin",
+      "description": "Colorado- A combination of classic London Dry and New World gin. We start with pure potato spirit and and distill it to above 190 proof. We then take locally sourced, hand-picked juniper berries and mix them with other botanicals. A fantastic base for your favorite cocktails.",
+      "price": 36.99,
+      "category": 1,
+      "rating": 4.7,
+      "abv": 47,
+      "bottle": 75,
+      "image": "woody_creek_colorado_gin.jpg"
+    }
+  },
+  {
+    "pk": 15,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002990740",
+      "name": "Bacardi White Rum",
+      "description": "Established in 1862 in Santiago de Cuba, Bacardi Superior Rum is the world's first premium aged white rum, combining the best of dark spirits production techniques (ageing and blending) with pioneering filtration process (charcoal filtration) to create the perfectly balanced mixing rum that neither overpowers nor disappears in your drink. Bacardi Superior Rum was used by cocktail pioneers as the principle ingredient in the birth of the world's best known rum cocktails including the legendary Mojito (1860s) and the Daiquiri (1896) The World's most awarded rum",
+      "price": 18.0,
+      "category": 2,
+      "rating": 4.8,
+      "abv": 37.5,
+      "bottle": 70,
+      "image": "bacardi.jpg"
+    }
+  },
+  {
+    "pk": 16,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003050248",
+      "name": "FANCY RUM PUNCH",
+      "description": "The Bitter Truth Pineapple Rum, Plantation Dark Rum, Oolong Oriental Beauty Tee, Angostura Bitters, Oleo Saccharum, Limettensaft",
+      "price": 15.99,
+      "category": 2,
+      "rating": 4.4,
+      "abv": 15,
+      "bottle": 70,
+      "image": "fancy_rum_punch_bottled_bar.jpg"
+    }
+  },
+  {
+    "pk": 17,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003070787",
+      "name": "Havana Club Añejo Especial",
+      "description": "Havana Club Añejo Especial is a blended Cuban rum which has been aged in white oak barrels, imparting both colour and flavour. Cuban rums are generally lighter in style, and this particular spirit would make a stellar backbone to any rum cocktail. Thick, smooth palate. Good caramel-like entry with soft fruits, spiced oak, manuka honey and cinnamon.",
+      "price": 23.99,
+      "category": 2,
+      "rating": 4.4,
+      "abv": 40,
+      "bottle": 70,
+      "image": "havanna_club_rum.jpg"
+    }
+  },
+  {
+    "pk": 18,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003090182",
+      "name": "MarlinSpike Rum",
+      "description": "MarlinSpike Rum is made using a combination of aged rums distilled in Trinidad & Tobago, Jamaica and Barbados. Not only is it a wonderful spirit to use in cocktails and mixed drinks (the producers even suggest trying it with tonic!), a portion of the yearly profit of MarlinSpike is donated to a global non-profit organisation to help support the maintaining of the oceans. Good stuff!",
+      "price": 37.99,
+      "category": 2,
+      "rating": 4.8,
+      "abv": 40,
+      "bottle": 70,
+      "image": "marlin_spike_rum.jpg"
+    }
+  },
+  {
+    "pk": 19,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003090186",
+      "name": "Old Monk Rum",
+      "description": "From the Old Monk range produced by Mohan Meakin in India comes The Legend, a well-aged blended rum presented in a bottle supposedly shaped like the head of H.G. Meakin, the company's founder. Pretty awesome.",
+      "price": 40.99,
+      "category": 2,
+      "rating": 5.0,
+      "abv": 42.8,
+      "bottle": 75,
+      "image": "old_monk_rum.jpg"
+    }
+  },
+  {
+    "pk": 20,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003161326",
+      "name": "Plantation Original Dark Double Aged",
+      "description": "The Original Dark expression from Plantation has had a little bit of a revamp! It's now made with aged rum from Trinidad and Jamaica, which then blended together and aged further in Cognac casks, which should impart some fruity richness to the expression...",
+      "price": 20.99,
+      "category": 2,
+      "rating": 4.7,
+      "abv": 40,
+      "bottle": 70,
+      "image": "plantaion_rum_orginal_dark.jpg"
+    }
+  },
+  {
+    "pk": 21,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003230723",
+      "name": "ESPOLON REPOSADO TEQUILA",
+      "description": "Handcrafted with 100 Blue Agave, Espolon is the super-premium tequila that celebrates the storied culture of true Mexico through classic 19th century artistry and the iconic rooster, a symbol of national pride. The labels, unique illustrations inspired by Mexican artistry, infuse the characters of Guadalupe, Rosarita and Ramon the Rooster into journeys capturing real moments in Mexican history. Aged for 6 months in American Oak barrels.",
+      "price": 25.99,
+      "category": 4,
+      "rating": 4.3,
+      "abv": 40,
+      "bottle": 70,
+      "image": "espolon_responsando.jpg"
+    }
+  },
+  {
+    "pk": 22,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003270936",
+      "name": "Espolon Blanco Tequila",
+      "description": "Espolon Tequila is a brand created by Cirilo Oropeza, an acclaimed master distiller, with over 50 years of experience of distilling tequila under his belt. He creates his tequilas up in Los Altos, in the highlands of Jalisco, and the distinctive labels are inspired by 19th century Mexican art. The Blanco is completely unaged and is delicate and floral with some sweet fruit flavours.",
+      "price": 25.99,
+      "category": 4,
+      "rating": 5.0,
+      "abv": 40,
+      "bottle": 70,
+      "image": "pure_agave_esponal_blanco.jpg"
+    }
+  },
+  {
+    "pk": 23,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003360384",
+      "name": "1800 Silver Tequila",
+      "description": "A fabulous silver Tequila here from the 1800 range, made with 100 blue weber agave, which are harvested after ageing between eight and 12 years. The spirit is double distilled, and blended with a selection of white Tequilas to achieve a marvellously well-rounded flavour profile. Enjoy in a cocktail, or simply sip neat and savour its fruity, herbal, refreshing qualities.",
+      "price": 35.99,
+      "category": 4,
+      "rating": 4.8,
+      "abv": 45,
+      "bottle": 70,
+      "image": "1800_silver.jpg"
+    }
+  },
+  {
+    "pk": 24,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003440111",
+      "name": "Herradura Seleccion Suprema Extra Añejo",
+      "description": "A super premium tequila from Herradura. Seleccion Suprema is a limited edition tequila aged in oak for 49 months. Spices including nutmeg, cinnamon and bourbon. A little floral note with a strong, musty scent of agave.",
+      "price": 247.99,
+      "category": 4,
+      "rating": 4.8,
+      "abv": 38,
+      "bottle": 70,
+      "image": "selccion_suprema_tequila.jpg"
+    }
+  },
+  {
+    "pk": 25,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003540313",
+      "name": "Jose Cuervo Especial Blanco Tequila",
+      "description": "Whilst many if not all of us (of a drinking age) will have heard and seen Tequila, I suspect few will realise that its creation and production is as closely guarded as that of the likes of Champagne- ie it must be made and bottled within a restricted area within Mexico where the Agave plant is mostly planted. Jose Cuervo is the Moet & Chandon of Tequila. The earliest records of a Mezcal de Tequila de Jose Cuervo can be traced back to 1795 whilst today they claim to have the largest Agave plantings available. This is highly likely given that this is the biggest selling Tequila in the World.",
+      "price": 20.99,
+      "category": 4,
+      "rating": 3.0,
+      "abv": 38,
+      "bottle": 70,
+      "image": "jose_curvo_silver.jpg"
+    }
+  },
+  {
+    "pk": 26,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003560513",
+      "name": "Absolut Blue Limited edition",
+      "description": "The classic Absolut Blue vodka, made in Swedish using winter wheat. Brilliant quality stuff, this vodka makes an a base for all manner of cocktails and mixed drinks.. Clean and elegant, with touches of peppery grains (somewhat reminiscent of rye) and vanilla pod.",
+      "price": 24.99,
+      "category": 4,
+      "rating": 4.4,
+      "abv": 40,
+      "bottle": 100,
+      "image": "absolut_original_vodka.jpg"
+    }
+  },
+  {
+    "pk": 27,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003560948",
+      "name": "Absolut Raspberri Vodka",
+      "description": "Absolut Raspberri Vodka joined the Absolut family in 2004, expanding the range to include a raspberry flavoured Vodka that is rich and intense with the fresh and fruity taste of ripened raspberries harvested in the Swedish hillsides. Like the other products in the Absolut collection, Absolut Raspberri Vodka is made from natural ingredients and with no added sugar. Absolut Vodka balances perfectly with other aromas, enhancing the taste of your drinks.",
+      "price": 23.99,
+      "category": 5,
+      "rating": 5.0,
+      "abv": 40,
+      "bottle": 70,
+      "image": "absolut_raspberri_vodka.jpg"
+    }
+  },
+  {
+    "pk": 28,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003570628",
+      "name": "Belvedere Pure Vodka",
+      "description": "Polish Vodka distilled from only one particular strain of Rye. Absolutely smashing on its own, but this really does make a marvellous Vodka Martini.",
+      "price": 33.99,
+      "category": 5,
+      "rating": 4.3,
+      "abv": 40,
+      "bottle": 70,
+      "image": "belvedere_vodka.jpg"
+    }
+  },
+  {
+    "pk": 29,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003620308",
+      "name": "Bistro Vodka",
+      "description": "Spiritique over in France brings you Bistro Vodka, named in honour of the wonderful simplicity and craftsmanship of a Parisian bistrot. As the story goes, in 1814 the Russians in Paris weren't allowed to drink in pubs. When they asked for a quick drink - quick in Russian sounding kind of like 'bistro' - they were served vodka, and this led to the Parisian bistrot being born. The Bistro Vodka you see before your eyes right now is distilled from French grain, and presented in a very fancy bottle.",
+      "price": 31.99,
+      "category": 5,
+      "rating": 4.6,
+      "abv": 40,
+      "bottle": 70,
+      "image": "bistro_vodka_french.jpg"
+    }
+  },
+  {
+    "pk": 30,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003690115",
+      "name": "Ciroc Snap Frost Vodka",
+      "description": "Ciroc Vodka was established in 2003 in the South of France. The Ciroc brand breaks the mould and is one of the only brands in the world to make their Vodka from fine French grapes, instead of using the typical grain. The bottle design reflects this heritage, featuring a cockerel perched on a cluster of grapes to symbolise the Gaillac region where the French grapes originate from. Five-time distilled Ciroc Ultra-Premium Vodka has a fresh, citrus taste with a silky texture, a perfect base for delicious drinks. A great way to celebrate with an elegant touch of French glamour.",
+      "price": 27.99,
+      "category": 5,
+      "rating": 5.0,
+      "abv": 40,
+      "bottle": 70,
+      "image": "ciroc_vodka.jpg"
+    }
+  },
+  {
+    "pk": 31,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003690116",
+      "name": "Flaming Caesar Vodka",
+      "description": "We heard the call for a better Caesar, and we answered! Made with Silvercreek Vodka infused with handpicked ingredients, it’s packed with flavour and heat. Just mix with your favourite brand of clam and tomato cocktail for a perfect Caesar.",
+      "price": 69.99,
+      "category": 5,
+      "rating": 4.0,
+      "abv": 40,
+      "bottle": 75,
+      "image": "dixons_flaming_ceasar_vodka.jpg"
+    }
+  },
+  {
+    "pk": 32,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003780391",
+      "name": "Finlandia Vodka",
+      "description": "Finlandia Vodka is produced in the Finnish town of Koskenkorva in the municipality of Ilmajoki. This place in the western part of Finland is dominated by vast waters. The source of the spring water for Finlandia, however, is in Rajamäki, which is located 50 km north of Helsinki. The special filtering by ice-age moraines creates a water that is full of minerals and does not require any post-treatment. It is no wonder Finlandia Vodka is one of the most popular vodkas in the world.",
+      "price": 15.99,
+      "category": 5,
+      "rating": 4.8,
+      "abv": 40,
+      "bottle": 70,
+      "image": "finlandia_vodka.jpg"
+    }
+  },
+  {
+    "pk": 33,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003790542",
+      "name": "THREE SIXTY VODKA",
+      "description": "Three Sixty Vodka with its unique Bottle sha[pe is 4 times distilled with a Diamond Filtering process which removes all impurities and gives this Vodka its Crisp taste! It is made with 100 Wheat and holds an extremely Crisp, Smooth and refreshing taste!",
+      "price": 21.99,
+      "category": 5,
+      "rating": 4.5,
+      "abv": 40,
+      "bottle": 70,
+      "image": "three_sixty_vodka.jpg"
+    }
+  },
+  {
+    "pk": 34,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003831225",
+      "name": "Esbjærg Vodka copper edition",
+      "description": "Esbjaerg Vodka bottle 1 litre 40 alc Esbjærg Vodka is a pure soft real grain vodka that is filtered over charcoal.",
+      "price": 26.99,
+      "category": 5,
+      "rating": 4.5,
+      "abv": 40,
+      "bottle": 70,
+      "image": "esbjaerg_vodka_copper_edition.jpg"
+    }
+  },
+  {
+    "pk": 35,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003861402",
+      "name": "Smirnoff Premium Vodka",
+      "description": "The preferred vodka for a wide range of cocktails such as the Smirnoff Soda Fruit Smash, Passionfruit or Espresso Martini and Bloody Mary",
+      "price": 12.99,
+      "category": 5,
+      "rating": 4.7,
+      "abv": 40,
+      "bottle": 70,
+      "image": "smirnoff_orginal_vodka.jpg"
+    }
+  },
+  {
+    "pk": 36,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003910638",
+      "name": "Vodka Smirnoff Gold",
+      "description": "Stunning looking edible gold leaf flakes are added to triple distilled and ten times charcoal filtered Smirnoff vodka, along with subtle, spicy cinnamon flavours, for a dramatic spirit serve. Smirnoff Gold is inspired by the opulence of the Russian tsars and their passion for gold. The bottle itself is etched with gold, and has a striking effect when you pour.",
+      "price": 23.99,
+      "category": 5,
+      "rating": 4.6,
+      "abv": 45,
+      "bottle": 70,
+      "image": "smirnoff_gold.jpg"
+    }
+  },
+  {
+    "pk": 37,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003950574",
+      "name": "Oginski Vodka",
+      "description": "Oginski vodka pays tribute to Michał Kleofas Ogiński who was a Polish composer. It is made from corn from the South of Poland and reduced with water of a source from Beskides mountains region. It expresses itself with softness and subtle grains notes. Can be apreciated neat or in cocktails.",
+      "price": 34.99,
+      "category": 5,
+      "rating": 4.0,
+      "abv": 40,
+      "bottle": 70,
+      "image": "oginski_vodka.jpg"
+    }
+  },
+  {
+    "pk": 38,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003950576",
+      "name": "Poliakov Vodka",
+      "description": "A legacy of ancient Russian traditions, Poliakov Vodka is a premium triple distilled vodka made from a rigorous selection of the finest grains.",
+      "price": 19.99,
+      "category": 2,
+      "rating": 4.5,
+      "abv": 40,
+      "bottle": 70,
+      "image": "poliakov_vodka.jpg"
+    }
+  },
+  {
+    "pk": 39,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003960062",
+      "name": "Sapling Vodka",
+      "description": "An enjoyably creamy English vodka made using four-times distilled British wheat. Not only is it marvellous in cocktails (though it most definitely is), the distillers are working with High Atlas Foundation to plant a tree for every bottle sold! Wonderful stuff all around! Buttery and soft, with just a prickle of caraway giving it a herbaceous touch.",
+      "price": 41.99,
+      "category": 5,
+      "rating": 3.8,
+      "abv": 40,
+      "bottle": 70,
+      "image": "sapling_british_vodka.jpg"
+    }
+  },
+  {
+    "pk": 40,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003960682",
+      "name": "Ballantine's Finest",
+      "description": "Ballantines Finest was Jim Murray's No Age Statement Blend of the Year with a whopping 96 points! A classic blend.",
+      "price": 24.99,
+      "category": 6,
+      "rating": 5.0,
+      "abv": 40,
+      "bottle": 70,
+      "image": "ballantines_scotch.jpg"
+    }
+  },
+  {
+    "pk": 41,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003960775",
+      "name": "Bowmore 12 Year Old",
+      "description": "The heart of the Bowmore range, the 12 year old exhibits some beautiful coastal notes with a gentle peat, it is the balance that the floral element presents that makes this a great entry bottling for Bowmore.",
+      "price": 34.95,
+      "category": 6,
+      "rating": 3.0,
+      "abv": 40,
+      "bottle": 70,
+      "image": "bowmore_12_year.jpg"
+    }
+  },
+  {
+    "pk": 42,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003990736",
+      "name": "Colonel EH Taylor Small Batch",
+      "description": "This small batch bourbon is named after Colonel Edmund Haynes Taylor, an incredibly important figure in bourbon's history from the 1800s who owned a whole host of distilleries and innovated production methods which are still used today. It's only right that the Colonel EH Taylor Small Batch lives up to his name by being absolutely amazing.",
+      "price": 108.99,
+      "category": 6,
+      "rating": 4.7,
+      "abv": 50,
+      "bottle": 70,
+      "image": "colonel_eh_taylor_single_barrel.jpg"
+    }
+  },
+  {
+    "pk": 43,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003990746",
+      "name": "The Glenlivet Founder's Reserve",
+      "description": "First revealed towards the end of 2014, the Founder's Reserve single malt Scotch whisky is now available in the UK and will be replacing The Glenlivet 12 year old in many of the mature markets despite initial indications that it would sit beside it, broadening the entry-level options. Named in tribute to distillery founder George Smith, it's packaged in Georgian blue.",
+      "price": 32.99,
+      "category": 6,
+      "rating": 4.0,
+      "abv": 45,
+      "bottle": 70,
+      "image": "glenlivet_founders_reserve.jpg"
+    }
+  },
+  {
+    "pk": 44,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5004111503",
+      "name": "GOUDEN CAROLUS",
+      "description": "Belgium might be better known for its beer than its whisky, but Gouden Carolus threatens to alter that status quo. This kosher single malt is a real beauty, with a sweetness that comes courtesy of the three years it spent in bourbon barrels before being finished in Het Anker barrels.",
+      "price": 60.99,
+      "category": 6,
+      "rating": 4.9,
+      "abv": 46,
+      "bottle": 70,
+      "image": "gouden_carolus.jpg"
+    }
+  },
+  {
+    "pk": 45,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5004230059",
+      "name": "Jack Daniel's Old No. 7",
+      "description": "Tennessee Sour Mash Whiskey Jack Daniel's Old No. 7 is a premium Tennessee Whiskey. A warm amber colour with aromas of sweet vanilla, this is a smooth, full-bodied whiskey, with flavours of orange, brown sugar and spice, and a long rich finish. Jack Daniel registered his distillery in 1866, making it the oldest registered distillery in the United States. It's here in Lynchburg that every drop of Jack Daniel's Tennessee Whiskey is still produced and bottled today.",
+      "price": 41.0,
+      "category": 6,
+      "rating": 4.6,
+      "abv": 40,
+      "bottle": 70,
+      "image": "jack_daniels.jpg"
+    }
+  },
+  {
+    "pk": 46,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5004310089",
+      "name": "Jack Daniel’s Tennessee Honey",
+      "description": "Jack Daniel's Honey is made with a mix of their famed Tennessee whiskery with rich spices and smooth honey and the result is delicious over ice or in a morning , sorry evening coffee.",
+      "price": 22.99,
+      "category": 6,
+      "rating": 4.5,
+      "abv": 35,
+      "bottle": 70,
+      "image": "jack_daniels_honey.jpg"
+    }
+  },
+  {
+    "pk": 47,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5004610254",
+      "name": "JAMESON IRISH WHISKEY",
+      "description": "A triple distilled, blended whiskey Jameson has a light floral fragrance, peppered with spicy wood and sweet notes.:Good balance of spicy, nutty and vanilla notes, with the spirit aged in both sherry and bourbon casks.",
+      "price": 21.99,
+      "category": 6,
+      "rating": 5.0,
+      "abv": 40,
+      "bottle": 70,
+      "image": "jameson_irish.jpg"
+    }
+  },
+  {
+    "pk": 48,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5004650050",
+      "name": "Jim Beam White Label",
+      "description": "A casual bourbon, made to the same recipe since 1795, it’s a 4 year old whisky smooth and creamy. With mellow hints of caramel and vanilla, Jim Beam pairs perfectly with American food, served in a refreshing Highball.",
+      "price": 20.99,
+      "category": 6,
+      "rating": 3.0,
+      "abv": 40,
+      "bottle": 70,
+      "image": "jim_beam.jpg"
+    }
+  },
+  {
+    "pk": 49,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5004821375",
+      "name": "JOHNNIE WALKER BLACK LABEL",
+      "description": "Johnnie Walker Black Label is a rich, smooth Scotch whisky made using an only single malt and grain whiskies that have each spent 12 years in a cask growing into a vibrant body of flavour. The result is deep layers of sweet fruit, spice and vanilla – all wrapped in a cloak of smoke.",
+      "price": 29.99,
+      "category": 6,
+      "rating": 4.0,
+      "abv": 40,
+      "bottle": 70,
+      "image": "jonnie_walker_black_label.jpg"
+    }
+  },
+  {
+    "pk": 50,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5004900522",
+      "name": "Lagavulin 9 Year Old Game of Thrones House Lannister",
+      "description": "One of the oldest, and richest, dynasties in the Seven Kingdoms, House Lannister will do anything to retain its power and influence over the Iron Throne. Their ferocious intent is aptly represented by the clawing lion of House Lannister’s banner which demonstrates that, if you cross them, you will hear the violent roar of House Lannister which has left many houses in ruins. Lagavulin 9 Year Old is a roaring single malt that leaves an intensely smoky flavour in every sip. The golden liquid recalls the Lannisters’ riches and comes from being exclusively matured in first fill ex-Bourbon casks. The nose is characteristic of Lagavulin and bursts with sweet smoke, with a slightly zestier, maritime scent than other expressions. On the palate it opens with smoky, caramelised banana, burnt marshmallow and vanilla, fading into a salted caramel finish.",
+      "price": 66.99,
+      "category": 6,
+      "rating": 4.6,
+      "abv": 46,
+      "bottle": 70,
+      "image": "lagavulin_9_year.jpg"
+    }
+  },
+  {
+    "pk": 51,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5004910158",
+      "name": "Maker's Mark 46",
+      "description": "The first line extension to the Maker's Mark range since the '50s, Maker's 46 is essentially the standard expression with added spice. This bourbon was not intended to compete with the core expression, instead it's a cousin to it, something different for those that like spicy whiskey. They add this extra dimension by inserting seared French oak staves into the barrels (with the stave profile number 46, - thus the name). It's utterly stunning.",
+      "price": 34.99,
+      "category": 6,
+      "rating": 3.8,
+      "abv": 47,
+      "bottle": 70,
+      "image": "makers_mark.jpg"
+    }
+  },
+  {
+    "pk": 52,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5004910477",
+      "name": "MONKEY SHOULDER BLENDED MALT SCOTCH WHISKY",
+      "description": "One day, Malt Master David Stewart decided to create the world’s first ‘triple’ malt. Combining fantastic single malts from three of Speyside’s finest distilleries, the result was a wonderfully smooth and mellow whisky. Monkey Shoulder was born. The name ‘monkey shoulder’ refers to a condition that some maltmen used to develop while working long shifts turning barley. Gruelling, repetitive shovelling sometimes caused an arm to hang down like a monkey – thus the nickname. Although the maltmen at Monkey Shoulder HQ are among the few who still turn barley by hand, working conditions have fortunately changed so the injury has been consigned to the past. Today, Monkey Shoulder lives on as an affectionate tribute to honour the hard graft of maltmen past and present. A masterful, unique ‘triple malt’ created by Malt Master David Stewart, Monkey Shoulder is mellow enough to be enjoyed straight, or it can be used to add class to an array of cocktails – just don’t tell the maltmen!",
+      "price": 28.99,
+      "category": 6,
+      "rating": 5.0,
+      "abv": 40,
+      "bottle": 70,
+      "image": "monkey_shoulder.jpg"
+    }
+  },
+  {
+    "pk": 53,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5004940703",
+      "name": "NIKKA Whisky Nikka from the Barrel",
+      "description": "Simple, stylish and outright delicious, this is a fantastic release from Japanese distillery Nikka. Intentional or not, the stocky looking bottle speaks volumes about the contents, a full bodied 51.4 expression that leaves lingering notes of fruit, caramel and vanilla on the back of your tongue as it goes down.",
+      "price": 48.99,
+      "category": 6,
+      "rating": 4.7,
+      "abv": 51.4,
+      "bottle": 50,
+      "image": "nikka_whisky.jpg"
+    }
+  },
+  {
+    "pk": 54,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5004991006",
+      "name": "Seagram's V.O.",
+      "description": "Seagram's VO is a classic Canadian whisky blend, made with spirit of at least 6 years of age. It is said the blend was created after a post-prandial conversation amongst the Seagram family; the letters VO might well stand for very own, as in, their very own blend...\"",
+      "price": 29.99,
+      "category": 6,
+      "rating": 5.0,
+      "abv": 40,
+      "bottle": 70,
+      "image": "seagrams_blenders_pride.jpg"
+    }
+  },
+  {
+    "pk": 55,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5004991162",
+      "name": "Macallan Triple Cask 12 Year Old Whisky",
+      "description": "Drawn from Whiskies distilled in a combination of European & American sherry casks along with American ex-bourbon casks, this entry level ageing is noted for its spicy aroma of gingerbread, vanilla and afternoon tea with buttered toast and cream topped scones. Small dried fruits rain supreme in it’s flavour profile along with stem ginger and citrusy dark chocolate. As it draws to a close, cedar and honey linger on the tongue making for a very enjoyable Whisky.",
+      "price": 28.99,
+      "category": 6,
+      "rating": 4.5,
+      "abv": 40,
+      "bottle": 70,
+      "image": "the_macallan.jpg"
+    }
+  },
+  {
+    "pk": 56,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005000046",
+      "name": "Talisker 10 Year Old",
+      "description": "Produced at the oldest distillery on the Isle of Skye, Talisker Single Malt Scotch Whisky has been made by the sea since 1830; this well loved malt is aged for a minimum of 10 years in casks that previously held bourbon whisky- this choice of cask gives the final liquid a solid backbone to build its flavours from. An absolute essential whisky for those wanting to dive into the world of peated scotch whisky with a coastal influence.",
+      "price": 35.99,
+      "category": 6,
+      "rating": 3.9,
+      "abv": 45.8,
+      "bottle": 70,
+      "image": "talisker_12_year.jpg"
+    }
+  },
+  {
+    "pk": 57,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005070254",
+      "name": "CLOCKWORK TANGERINE",
+      "description": "This fully automated IPA is infused with tangerine. At 4.5 it’s a stand-out session beer that packs a perfectly timed delivery of juicy citrus and mellow tropical fruit resting on a light toasty and caramel base. Fresh, juicy and sessionable. Clockwork Tangerine - the Director’s cut for the twenty-first century.",
+      "price": 66.0,
+      "category": 7,
+      "rating": 4.7,
+      "abv": 4.5,
+      "bottle": 33,
+      "image": "brewdog_clockwork_tangerine.jpg"
+    }
+  },
+  {
+    "pk": 58,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005071145",
+      "name": "Elysian Dayglow",
+      "description": "A touch of wheat hazes the malt bill, softening this bright and crisp IPA. Dayglow is packed with juicy hops featuring pineapple and tropical fruit flavors and aromas.",
+      "price": 3.5,
+      "category": 7,
+      "rating": 3.3,
+      "abv": 7.4,
+      "bottle": 50,
+      "image": "flsian_dayglow_ipa.jpg"
+    }
+  },
+  {
+    "pk": 59,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005140282",
+      "name": "Golden Road Brewing Mango Cart",
+      "description": "First in a series inspired by the iconic fruit cart vendors of Los Angeles, Mango Cart is a light wheat ale bursting with real mango flavor that finishes crisp and refreshing.",
+      "price": 1.99,
+      "category": 7,
+      "rating": 4.0,
+      "abv": 4,
+      "bottle": 33,
+      "image": "golden_road_mango_cart.jpg"
+    }
+  },
+  {
+    "pk": 60,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005200166",
+      "name": "81 ARTISAN BREWING CO. HOPTOPUSS",
+      "description": "Vienna malt as the entire base malt bill backed up with some oats, wheat and a bit or Carapils. We wanted a pale ale with something a bit different for the winter and Vienna malt fitted the bill perfectly. It adds a fuller, sweeter and darker body to the beer and also carries the hops extremely well. This beer has a great dark orange/amber body and a nice creamy white head which carries the aroma well. We ramped up the IBU's for this one to balance out the malt base so it has a great bitterness up front which lasts until the end! For the hops we wanted to go for the usual suspects to add some nice tropical fruit aromas and taste and also a great level of complexity.",
+      "price": 2.99,
+      "category": 7,
+      "rating": 4.4,
+      "abv": 5.6,
+      "bottle": 50,
+      "image": "hoptopuss_vienna_pale.jpg"
+    }
+  },
+  {
+    "pk": 61,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005210241",
+      "name": "Jabalina Brewing Company Citrus Hazy IPA",
+      "description": "resh Croatian oranges and grapefruit and lime rind and zest combined with dank American hops. Dark orange in colour with a slight haze and a lingering tight white head.",
+      "price": 3.99,
+      "category": 7,
+      "rating": 4.5,
+      "abv": 6,
+      "bottle": 50,
+      "image": "jabalina_brewing_citrus_haze.jpg"
+    }
+  },
+  {
+    "pk": 62,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005280104",
+      "name": "Jabalina Brewing Company Sour Maracuyá Guayaba y Lima",
+      "description": "Though not officially defined, sour IPAs are commonly understood as New England-style IPAs with added tartness. That flavor primarily comes from lactobacillus, a microorganism used in the kettle souring process. Additional flavors come from barrel aging, or from adjuncts like fruit, vanilla, and lactose",
+      "price": 3.99,
+      "category": 7,
+      "rating": 5.0,
+      "abv": 6,
+      "bottle": 50,
+      "image": "jabalina_brewing_sour.jpg"
+    }
+  },
+  {
+    "pk": 63,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005310360",
+      "name": "Maui Brewing Co. Big Swell IPA",
+      "description": "Tropical citrus hops burst from this dry-hopped India Pale Ale.",
+      "price": 2.99,
+      "category": 7,
+      "rating": 5.0,
+      "abv": 6.8,
+      "bottle": 33,
+      "image": "maui_brewing_big_swell.jpg"
+    }
+  },
+  {
+    "pk": 64,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005330595",
+      "name": "Phillips Brewing Company Electric Unicorn White IPA",
+      "description": "Electric Unicorn is a hop-infused White ale; best enjoyed while riding a mystical mono-horned laser beast, racing through the galaxy to the sonic backdrop of screaming metal guitars. Time to ditch reality and take this India pale fairy tale for a ride.",
+      "price": 2.99,
+      "category": 7,
+      "rating": 4.9,
+      "abv": 6.5,
+      "bottle": 35,
+      "image": "phillips_brewing_electric_unicorn.jpg"
+    }
+  },
+  {
+    "pk": 65,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005330596",
+      "name": "58 South Burlington",
+      "description": "Golden beer, unfiltered, bitterness of the hops well present on the light body with an aromatic finish.",
+      "price": 2.99,
+      "category": 7,
+      "rating": 4.0,
+      "abv": 5.8,
+      "bottle": 50,
+      "image": "south_burlington_ipa.jpg"
+    }
+  },
+  {
+    "pk": 66,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005430914",
+      "name": "No Label Brewing Company Sittin' Sidehaze",
+      "description": "The carbonation is perfect poured out of a can. Nice head, fluffy-white with great retention. Golden, almost whit color, and not too hazy for a hazy IPA. The hops are there but more floral-citrus, no dank. Slight bitter taste of hops on the finish, but the body is medium, bordering on light with those suds.",
+      "price": 1.99,
+      "category": 7,
+      "rating": 4.0,
+      "abv": 6.7,
+      "bottle": 33,
+      "image": "sitting_side_haze.jpg"
+    }
+  },
+  {
+    "pk": 67,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005430944",
+      "name": "YOUNG HENRYS NATURAL LAGER",
+      "description": "Unfiltered, traditional German-style lager.",
+      "price": 1.99,
+      "category": 7,
+      "rating": 4.5,
+      "abv": 4.2,
+      "bottle": 70,
+      "image": "young_herrys_natural_larger.jpg"
+    }
+  },
+  {
+    "pk": 68,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005510265",
+      "name": "Pokal Beer Glass 6pk",
+      "description": "Enhance the appearance of your beverages, with the brilliant nucleation technology of these 570ml Toughened Draft beer glasses.The tulip shape of these stemmed glasses prolongs a pleasurable drinking experience, perfect for maintaining a foamy head. With the added durability of toughened glass, this makes the glasses an obvious choice for any professional outlet. Strengthened across their entire body, these glasses are highly resistant to impact damage at all points. When toughened glass does break, it will break into small fragments rather than big sharp pieces - making it impossible to cause serious lacerations. This makes these glasses an obvious choice for outlets following license stipulations or those seeking to prevent glass-related violence. The glasses feature innovative nucleation technology designed to increase the effervescence of the product and maintain the head of the drink as well as improving the appearance of beverages when served.",
+      "price": 30.99,
+      "category": 8,
+      "rating": 4.7,
+      "image": "beer_glass.jpg"
+    }
+  },
+  {
+    "pk": 69,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005520201",
+      "name": "Arcoroc Savoie Champagne Flutes 190ml 6pk",
+      "description": "Serve your champagnes and sparkling wines in style with these 190ml champagne flutes from Utopia's Pure Glass range. These glasses are of the highest quality and style to provide a professional image for your guests. Dishwasher safe, these glasses can be cleaned quickly and easily. Pure is an effective and concise range ideal for style and quality.",
+      "price": 10.0,
+      "category": 8,
+      "rating": 4.3,
+      "image": "champagne_flute.jpg"
+    }
+  },
+  {
+    "pk": 70,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005520205",
+      "name": "Bonzer Cocktail Kit",
+      "description": "Bonzer have used their years of experience with the bar trade to create this stunning bar kit, that includes everything you need to run a successful cocktail party. This bonzer cocktail bar kit contains; a 25/50ml jigger, three spill-stop pourers, a muddler, Boston can and glass, a mixing spoon, hawthorne strainer, julep strainer and fine bar strainer.",
+      "price": 78.99,
+      "category": 8,
+      "rating": 4.9,
+      "image": "cocktail_set.jpg"
+    }
+  },
+  {
+    "pk": 71,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005630545",
+      "name": "Mezclar French shaker 600ml",
+      "description": "Mezclar 600ml French Shaker Copper Plated – 3 piece, Copper Cocktail Shaker . This shaker will add a touch of style and class to any bar. As well as looking great, it is also durable and built to last and is therefore suitable for use in the busiest of clubs, bars, restaurants or even at home to help produce your favourite cocktail.",
+      "price": 15.99,
+      "category": 8,
+      "rating": 4.3,
+      "image": "cocktail_shaker.jpg"
+    }
+  },
+  {
+    "pk": 72,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005630605",
+      "name": "Old Fashioned Cut Glass 350ml x 1",
+      "description": "With the appearance of cut crystal, this glass offers a great way of presenting whiskey. The oversized 350ml capacity of the glass means you can either serve a double measure with ice and have plenty of space to spare or, alternatively, use the glass for whiskey based cocktails such as a whiskey sour or an old fashioned. ",
+      "price": 9.99,
+      "category": 8,
+      "rating": 4.6,
+      "image": "cutglass_old_fashion.jpg"
+    }
+  },
+  {
+    "pk": 73,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005630637",
+      "name": "Urban Bar Stainless Steel Mexican Elbow Squeezer",
+      "description": "This is a machine washable, stainless squeezer with which to extract the juice from a variety of fruits - especially good for limes!",
+      "price": 20.99,
+      "category": 8,
+      "rating": 4.7,
+      "image": "hand_juicer.jpg"
+    }
+  },
+  {
+    "pk": 74,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005630638",
+      "name": "Arcoroc Hi Ball Glasses 560ml 12 pk",
+      "description": "Multipurpose blown hi ball glasses. Thanks to a straight bowl and weighted base, the tumblers boast a sleek and modern look that is sure to add that special touch to your drinks' presentations. Plus, as they're glasswasher-safe, the tumblers are easy to clean! This gives your staff a quick turnaround of fresh glassware - ready for your guests to enjoy. ",
+      "price": 22.99,
+      "category": 8,
+      "rating": 4.2,
+      "image": "high_ball_glass.jpg"
+    }
+  },
+  {
+    "pk": 75,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005650677",
+      "name": "Avonbrook Home Bar shelving",
+      "description": "Create a incredible home bar, with these handcrafted walnut and maple bar shelves. These shelves come with cut ins to fit led strip lighting to make your bar something to talk about! messure 2ft x 5ft",
+      "price": 248.99,
+      "category": 8,
+      "rating": 4.4,
+      "image": "homebar_shelving.jpg"
+    }
+  },
+  {
+    "pk": 76,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005700140",
+      "name": "Tipples Drink Margarita Glasses 295ml Pack of 6",
+      "description": "Create the perfect tequila concoction with our Tipples Drink Margarita Cocktail Glasses. The wide rimmed bowl provides plenty of room for mixers, ice and your favourite alcoholic flavours.",
+      "price": 12.99,
+      "category": 8,
+      "rating": 5.0,
+      "image": "margarita_glass.jpg"
+    }
+  },
+  {
+    "pk": 77,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005740430",
+      "name": "Tipples Drink Martini Glasses - 225ml - Pack of 6",
+      "description": "With the traditional design of a wide, triangle bowl and a thin stem, this Set of 6 Martini Glasses will be an extremely elegant addition to your glassware. The classic martini glass shape makes them perfect for adding a touch of high-class to dinners, or for bringing authenticity to your fancy cocktail nights with your best friends!",
+      "price": 12.99,
+      "category": 8,
+      "rating": 4.7,
+      "image": "martini_glass.jpg"
+    }
+  },
+  {
+    "pk": 78,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005740561",
+      "name": "Villeroy & Boch La Divina Burgundy Goblets, 680ml Set of 4",
+      "description": "This glassware range impresses with an eye-catching modern trapeze-like shape. Despite its modern touch La Divina retains the classic feature of Villeroy & Boch which makes this collection the perfect choice for any occasion. With La Divina you have the right glass to compliment your tableware and add a little magic sparkle to your table.",
+      "price": 40.99,
+      "category": 8,
+      "rating": 4.6,
+      "image": "redwine_glass.jpg"
+    }
+  },
+  {
+    "pk": 79,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005740634",
+      "name": "Hot Shot Glasses 1.2oz LCE 25ml 6pk ",
+      "description": "With a CE marked line at 25ml, the Hot Shot Glasses offer a classic fluted shooter glass shape perfect for a legal measure of your favourite spirit. There's no need to fiddle around with various thimble measures trying to get an exact shot, just pour straight in to this heavy-based shot glass to serve a single shot.",
+      "price": 6.99,
+      "category": 8,
+      "rating": 4.5,
+      "image": "shot_glass.jpg"
+    }
+  },
+  {
+    "pk": 80,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005760088",
+      "name": "Pewter stag head cut glass decanter, 245mm Royal Scot Crystal",
+      "description": "A classical hand cut decanter suite inspired by the great tradition of the City of Edinburgh. A City which has created a legend out of glass for over four centuries. Supplied in luxury midnight blue presentation boxes.  ",
+      "price": 29.0,
+      "category": 8,
+      "rating": 5.0,
+      "image": "stag_decanter.jpg"
+    }
+  },
+  {
+    "pk": 81,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005810108",
+      "name": "Le Creuset Wine Accessories Waiter's Friend Bottle Opener, Wood",
+      "description": "The Waiter’s Corkscrew is an essential tool for any kitchen or entertaining setting for opening corked wine bottles and features a bottle-opener. Made from beautiful olive wood and stainless steel, it is the perfect travel companion for picnics, holidays or a BBQ and a product relied on by waiters and sommeliers.The elegant two-step design allows for optimal leverage when removing corks, and the coated stainless steel screw slides easily into all corks, natural or synthetic. A foldable foil cutter blade and built-in bottle opener make this a multi-purpose tool.",
+      "price": 24.99,
+      "category": 8,
+      "rating": 4.7,
+      "image": "waiters_friend.jpg"
+    }
+  },
+  {
+    "pk": 82,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005820197",
+      "name": "Stölzle Lausitz Set of 6 Power White Wine Glasses 402ml",
+      "description": "Astound guests with the impressive look and feel of this Stolzle 14.25 oz. Power white wine glass. The Power line from Stolzle, winner of the 2018 German Design Award, creates an eye-catching, powerful silhouette that impresses friends from the first glance.The unique form helps to aerate your best white wines and allows your friends to enjoy their drink to its fullest. The wide, flat base of the bowl ensures a large surface area to aerate the wine. The sides of the glass taper upward to capture the wine's bouquet and let your guests smell the wine's signature aroma. No matter what you serve, this elegant white wine glass will add aesthetic appeal to intimate dinner settings,special events.",
+      "price": 24.99,
+      "category": 8,
+      "rating": 4.9,
+      "image": "whitewine_glass.jpg"
+    }
+  }
+]
