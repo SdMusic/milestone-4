@@ -57,6 +57,10 @@ body {
     border: 1px solid black !important;
 }
 
+.bg-gray {
+    background: rgb(160, 153, 153) !important;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
