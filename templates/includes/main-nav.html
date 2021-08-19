@@ -17,9 +17,9 @@
                 Bar Equipment
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="equipment-link">
-                <a href="" class="dropdown-item">Glasses</a>
-                <a href="" class="dropdown-item">Equipement</a>
-                <a href="" class="dropdown-item">All Clothing</a>
+                <a href="{% url 'products' %}?category=glasses" class="dropdown-item">Glasses</a>
+                <a href="{% url 'products' %}?category=bar_equipment" class="dropdown-item">Equipement</a>
+                <a href="{% url 'products' %}?category=bar_equipment,glasses" class="dropdown-item">All Bar Items</a>
             </div>
         </li>
 
@@ -35,13 +35,15 @@
 
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black" href="#" id="specials-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Special Offers
+                Drinks
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">New Arrivals</a>
-                <a href="" class="dropdown-item">Deals</a>
-                <a href="" class="dropdown-item">Clearance</a>
-                <a href="" class="dropdown-item">All Specials</a>
+                <a href="{% url 'products' %}?category=vodka" class="dropdown-item">Vodka</a>
+                <a href="{% url 'products' %}?category=gin" class="dropdown-item">Gin</a>
+                <a href="{% url 'products' %}?category=tequila" class="dropdown-item">Tequila</a>
+                <a href="{% url 'products' %}?category=whisky" class="dropdown-item">Whisky</a>
+                <a href="{% url 'products' %}?category=rum" class="dropdown-item">Rum</a>
+                <a href="{% url 'products' %}?category=craft_beer" class="dropdown-item">Craft Beers</a>
             </div>
         </li>
     </ul>
