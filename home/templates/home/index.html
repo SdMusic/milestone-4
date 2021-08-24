@@ -26,7 +26,7 @@
             </div>
         </div>
     </div>
-    <div class="row pt-3">
+    <div class="row m-0 pt-3">
         <div class="col-lg-2 col-md-3 col-sm-6">
             <a href="{% url 'products' %}?category=vodka" class="">
                 <img class="img-fluid menu d-flex m-auto" src="{{ MEDIA_URL }}absolute_vodka.jpg" alt="Vodka">
@@ -65,11 +65,11 @@
         </div>
     </div>
     <div>
-        <div style="height: 500px;" class="row pt-5 pb-5 jumbotron2">
+        <div style="height: 500px;" class="pt-5 pb-5 jumbotron2">
             <div class="container h-100">
-                <div class="row no-gutters address h-100 pb-5">
+                <div class="address h-100">
                     <div class="m-auto p-auto">
-                        <h1 class="display-5 pt-4 logo-font text-black">
+                        <h1 class="display-5 pt-5 logo-font text-black">
                             Our Shop
                         </h1>
                         <p class="text-black">
@@ -88,4 +88,5 @@
             </div>
         </div>
     </div>
+    {% include 'includes/footer.html' %}
 {% endblock %}

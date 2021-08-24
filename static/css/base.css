@@ -46,6 +46,16 @@ body {
     max-width: 185px;
 }
 
+.footer {
+    height: 300px;
+    background-color: #333638;
+    color: whitesmoke !important;
+}
+.icons {
+    font-size: 5rem;
+    padding: 5px;
+}
+
 /* from Bulma */
 .icon {
     align-items: center;
