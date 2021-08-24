@@ -10,16 +10,39 @@
 {% endblock %}
 
 {% block content %}
-    <div class="container h-100">
-        <div class="row h-100">
-            <div class="col-7 col-md-6 my-auto">
-                <h1 class="display-4 logo-font text-black">
-                    New Drinks every month!
-                </h1>
-                <div class="my-5">
-                    <h4>
-                       <a href="{% url 'products' %}" class="shop-now-button btn btn-lrg rounded-0 text-uppercase py-3">Shop Now</a>
-                    </h4>
+    <div class="jumbotron">
+        <div class="container h-100">
+            <div class="row h-100">
+                <div class="col-7 col-md-6 my-auto">
+                    <h1 class="display-4 logo-font text-black">
+                        New Drinks every month!
+                    </h1>
+                    <div class="my-5">
+                        <h4>
+                        <a href="{% url 'products' %}" class="shop-now-button btn btn-lrg rounded-0 text-uppercase py-3">Shop Now</a>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div style="height: 500px;" class="pt-5 pb-5 jumbotron2">
+            <div class="container h-100">
+                <div class="row h-100 pb-5">
+                    <div class="col-3 address col-md-3 my-auto">
+                        <p class="pt-4 text-black">
+                            Tipples<br>
+                            Made up Street<br>
+                            Chepstow<br>
+                            made up stuff<br>
+                        </p>
+                        <div class="my-5">
+                            <h4>
+                            <a href="https://www.google.co.uk/maps/dir/51.6455458,-2.670349//@51.6454498,-2.6700045,18.75z" target="blank" class="shop-now-button btn btn-lrg rounded-0 text-uppercase py-3">Directions</a>
+                            </h4>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
