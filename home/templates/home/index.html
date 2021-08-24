@@ -26,12 +26,53 @@
             </div>
         </div>
     </div>
+    <div class="row pt-3">
+        <div class="col-lg-2 col-md-3 col-sm-6">
+            <a href="{% url 'products' %}?category=vodka" class="">
+                <img class="img-fluid menu d-flex m-auto" src="{{ MEDIA_URL }}absolute_vodka.jpg" alt="Vodka">
+                <h3 class="text-center logo-font text-black pt-2 pb-4">Vodka</h3>
+            </a>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-6">
+            <a href="{% url 'products' %}?category=gin" class="">
+                <img class="img-fluid menu d-flex m-auto" src="{{ MEDIA_URL }}isle_of_harris_gin.jpg" alt="Gin">
+                <h3 class="text-center logo-font text-black pt-2 pb-4">Gin</h3>
+            </a>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-6">
+            <a href="{% url 'products' %}?category=tequila" class="">
+                <img class="img-fluid menu d-flex m-auto" src="{{ MEDIA_URL }}espolon_responsando.jpg" alt="Tequila">
+                <h3 class="text-center logo-font text-black pt-2 pb-4">Tequila</h3>
+            </a>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-6">
+            <a href="{% url 'products' %}?category=whisky" class="">
+                <img class="img-fluid menu d-flex m-auto" src="{{ MEDIA_URL }}the_macallan.jpg" alt="Whisky">
+                <h3 class="text-center logo-font text-black pt-2 pb-4">Whisky</h3>
+            </a>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-6">
+            <a href="{% url 'products' %}?category=rum" class="h2">
+                <img class="img-fluid menu d-flex m-auto" src="{{ MEDIA_URL }}bacardi.jpg" alt="Rum">
+                <h3 class="text-center logo-font text-black pt-2 pb-4">Rum</h3>
+            </a>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-6">
+            <a href="{% url 'products' %}?category=craft_beer" class="">
+                <img class="img-fluid menu d-flex m-auto" src="{{ MEDIA_URL }}flsian_dayglow_ipa.jpg" alt="Craft Beers">
+                <h3 class="text-center logo-font text-black pt-2 pb-4">Beers</h3>
+            </a>
+        </div>
+    </div>
     <div>
-        <div style="height: 500px;" class="pt-5 pb-5 jumbotron2">
+        <div style="height: 500px;" class="row pt-5 pb-5 jumbotron2">
             <div class="container h-100">
-                <div class="row h-100 pb-5">
-                    <div class="col-3 address col-md-3 my-auto">
-                        <p class="pt-4 text-black">
+                <div class="row no-gutters address h-100 pb-5">
+                    <div class="m-auto p-auto">
+                        <h1 class="display-5 pt-4 logo-font text-black">
+                            Our Shop
+                        </h1>
+                        <p class="text-black">
                             Tipples<br>
                             Made up Street<br>
                             Chepstow<br>
