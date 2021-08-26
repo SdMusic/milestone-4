@@ -10,6 +10,7 @@ body {
     font-family: 'Lato';
 }
 
+
 .jumbotron {
     color: white;
     background-image: url('/media/homepage_background.jpg');
@@ -46,7 +47,8 @@ body {
     max-width: 185px;
 }
 
-.footer {
+.footer,
+.footer a {
     height: 300px;
     background-color: #333638;
     color: whitesmoke !important;
@@ -78,6 +80,7 @@ body {
     background: black;
     color: white;
     min-width: 260px;
+    box-shadow: inset 0 3px 6px rgba(197, 193, 193, 0.16), 0 4px 6px rgba(124, 119, 119, 0.45);
 }
 
 .btn-black {
@@ -118,7 +121,7 @@ body {
 }
 
 .bg-gray {
-    background: rgb(160, 153, 153) !important;
+    background: #333638 !important;
 }
 
 .overlay {
