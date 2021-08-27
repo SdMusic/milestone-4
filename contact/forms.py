@@ -8,7 +8,7 @@ class ContactForm(forms.Form):
     name = forms.CharField(required=True)
     from_email = forms.EmailField(required=True)
     subject = forms.CharField(required=True)
-    content = forms.CharField(widget=forms.Textarea, required=True)
+    message = forms.CharField(widget=forms.Textarea, required=True)
 
     def __init__(self, *args, **kwargs):
         """
@@ -20,7 +20,7 @@ class ContactForm(forms.Form):
             'name': 'Full Name',
             'from_email': 'Email Address',
             'subject': 'Subject',
-            'content': 'Message',
+            'message': 'Message',
         }
 
         self.fields['name'].widget.attrs['autofocus'] = True
