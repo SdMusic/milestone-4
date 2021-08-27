@@ -64,16 +64,19 @@ def all_products(request):
 
 
 def product_detail(request, product_id):
-    """ A view to show individual product details """
+    """A view to show individual product details"""
 
     product = get_object_or_404(Product, pk=product_id)
+    reviews = Review.objects.filter(product=product)
+    review_form = ReviewForm()
 
     context = {
-        'product': product,
+        "product": product,
+        "reviews": reviews,
+        "review_form": review_form,
     }
 
-    return render(request, 'products/product_detail.html', context)
-
+    return render(request, "products/product_detail.html", context)
 
 @login_required
 def add_product(request):
