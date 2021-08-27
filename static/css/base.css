@@ -287,6 +287,30 @@ input[name='q']::placeholder {
 	color: #17a2b8; /* text-info */
 }
 
+/* About page carousel */
+
+.carousel-inner {
+    overflow: hidden;
+    z-index: 3;
+    width: 100%;
+  }
+  
+  .carousel-inner div img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%;
+    max-height: 600px;
+    min-height: 400px;
+  }
+  
+  .carousel-control-next,
+  .carousel-control-prev {
+    z-index: 10;
+  }
+
+
 /* Product Form */
 
 .btn-file {
