@@ -1,104 +1,545 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<div align="center">
 
-Welcome SdMusic,
+# **TIPPLES - E-commerce MILESTONE 4 PROJECT**
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. The last update to this file was: **July 2, 2021**
+<img src="media/read-me-milestone4.png" style="margin: auto" />
 
-## Gitpod Reminders
+An e-commerce site for a Independant alocohol store.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Live site available at [TIPPLES](hhttps://pf-tipples.herokuapp.com/)
+</div>
 
-`python3 -m http.server`
+- This project aims to build a full-stack web application using Django full-stack web framework, HTML, CSS and JavaScript.
 
-A blue button should appear to click: _Make Public_,
+  - I have built an e-commerce store for a fictional Independant Alocohol Shop.
+  
+  - This application features e-commerce functionality, payments using stripe, a review section, user login via email, confirmation emails for purchases, CRUD functionality for admin to add products.
 
-Another blue button should appear to click: _Open Browser_.
+  - This website is for educational purposes and the stripe functionality is set up to accept the test card details please don't enter your personal card details. 
+  
+     - To use the stripe function use the following details.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+        - card number : 4242 4242 4242 4242
+        - Any date
+        - Any CVV number.
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## **Table of Contents:**
 
-To log into the Heroku toolbelt CLI:
+- [Site Owner Goals](#site-owner-goals)
+- [User Experience (UX)](#user-experience-ux)
+  - [User Stories](#user-stories)
+  - [Design](#Design)
+    - [Imagery](#imagery)
+    - [Layout](#layout)
+        - [Accessible to all users via the navbar](#Accessible-to-all-users-via-the-navbar)
+        - [Accessible to logged in regisered users via the Navbar](#Accessible-to-logged-in-regisered-users-via-the-Navbar)
+        - [Accessible only to Superusers(Admin) via the navbar](#Accessible-only-to-Superusers(Admin)-via-the-navbar)
+        - [Accessible to all users via the Footer](#Accessible-to-all-users-via-the-Footer)
+        - [Accessible to all users on the Products page](#Accessible-to-all-users-on-the-Products-page)
+        - [Accessible to Superusers(Admin) on the Products page](#Accessible-to-Superusers(Admin)-on-the-Products-page)
+        - [Accessible to Superusers(Admin) on the Product Detail page](#Accessible-to-Superusers(Admin)-on-the-Product-Detail-page)
+        - [Accessible to Superusers(Admin) on the reviews page](#Accessible-to-Superusers(Admin)-on-the-reviews-page)
+        - [Error Pages](#Error-Pages)
+    - [Wireframes](#wireframes)
+  - [Features](#features)
+    - [Interactive Features](#Interactive-Features)
+    - [Future Features](#future-features)
+- [Technologies Used](#technologies-used)
+  - [Languages Used](#languages-used)
+  - [Frameworks, Libraries and Other Sources Used](#frameworks,-libraries-and-other-sources-used)
+- [Information Architecture](#information-architecture)
+    - [Database Choice](#database-choice)
+    - [Data Modeling](#Data-Modeling)
+- [Testing](#testing)
+- [Deployment](#deployment)
+  - [Heroku Deployment with AWS](#github-pages)
+  - [Amazon Web Services](#forking-the-repository)
+  - [Making A Local Clone](#making-a-local-clone)
+- [Credits](#credits)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+# UX:
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Site Owner Goals:
 
-------
+The tipples website is a real world application, designed for the selling of fitness and health suppliment products.
 
-## Release History
+1. The site owner's primary goal is to sell their products to new and returning customers.
+2. The secondary goal is to showcase new products that are available to new and returning customers. 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## User Stories:
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+- Customers
+  - Website experience
+    - As a customer, I would like to see what the website is selling.
+    - As a customer, I would like to be able to navigate the website easily.
+    - As a customer, I would like to see some information about the company.
+    - As a customer, I would like to be able to contact the company.
+  
+  - Searching for items.
+    - As a customer, I would like to see all the products the company sells.
+    - As a customer, I would like to be able to search by category.
+    - As a customer, I would like to be able to search through the items.
+    - As a customer, I would like to sort the items by price.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+  - Shopping.
+    - As a customer, I would like to see the product price and description.
+    - As a customer, I would like to be able to add products to my shopping cart.
+    - As a customer, I would like to be notified when I complete interactions with the site.
+    - As a customer, I would like to be able to edit my shopping cart.
+    - As a customer, I would like to be able to checkout easily.
+    - As a customer, I would like to receive confirmation of my order.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+  - Account.
+    - As a customer, I would like to save my details to an account.
+    - As a customer, I would like to see my previous order details.
+    - As a customer, I would like to leave a review of the company.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+- Website owner.
+  - As the business owner, I would like to be able to edit and add products easily.
+  - As the business owner, I would like to be able to delete products.
+  - As the business owner, I would like to have access to an admin section. 
+  - As the business owner, I would like my customers to be able to shop on the site easily.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+## Design:
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### Imagery:
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+- On the landing page, the Hero image represents 'tipples' in the name of the company. As image is about fitness and toughness which represents Beast in fitness world. It was downloaded from [pixabay](https://pixabay.com/)
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+![tipples Hero Image](media/homepage_background.jpg)
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+- The origin of all other images is detailed in the [Credits](#Credits) section,
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Layout: 
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+#### Accessible to all users via the navbar:
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+- All Pages:
+- **About** dropdown with the following options:
+    - **About**:  Biography/marketing info for the company.
+    - **Contact**: Contact the business owner via a contact form.
+- **My Account**: 
+    - **Login**: Login for existing users.
+    - **Register**: Register as a user.
+- **Shopping Basket**:
+    - **Shopping Basket Icon**: Click here to navigate to the shopping basket page.
+- **Search**: Search the site using key words.
+- **All Products** dropdown with the following options:
+    - **By Price**: Display items by price.
+    - **By Ratings**: Display items by ratings.
+    - **By Categories**: Display items by categories.
+    - **All Products**: Display all products.
+- **Bar Equipment** dropdown with the following product options:
+    - **Glasses**: Show a selection of glasses.
+    - **Equipment**: Show a selection of bar equipment.
+    - **All Equipment**: Shows all bar equipment.
+- **Drinks** dropdown with the following options:
+    - **Vodka**: Show all vodka products.
+    - **Gin**: Show all gin products.
+    - **Rum**: Show all rum products.
+    - **Whisky**: Show all whisky products.
+    - **Craft Beers**: Show all craft beer products.
+    - **Tequila**: Show all tequila products.
 
-------
 
-## FAQ about the uptime script
+#### Accessible to logged in regisered users via the Navbar:
 
-**Why have you added this script?**
+-**My Account**:
+    - **My Profile**: Navigate to the session user's profile page.
+    - **Logout**: Log out of the site.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+#### Accessible only to Superusers(Admin) via the navbar:
 
-**How will this affect me?**
+-**Product Management**: Add products to the site.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+#### Accessible to all users via the Footer:
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+- **Social Media** links to the following social media sites:
+    - **Facebook**
+    - **Twitter**
+    - **Instagram**
+    - **Youtube**
+- **Email**: Icon Link to available for contact business owner.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+#### Accessible to all users on the Products page:
 
-**So….?**
+-**Sort Box**: Allows the user to sort the items by price, rating, name and category.
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+#### Accessible to Superusers(Admin) on the Products page:
 
-**Can I opt out?**
+-**Edit**: Allows a superuser to edit a product.
+-**Delete**: ALlows a superuser to delete a product.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+#### Accessible to Superusers(Admin) on the Product Detail page:
 
+-**Edit**: Allows a superuser to edit a product.
+-**Delete**: Allows a superuser to delete a product.
+
+#### Accessible to Superusers(Admin) on the Reviews page:
+
+-**Delete**: Allows a superuser to delete a review by user.
+
+### Error Pages:
+
+-**404 Error Page**: A custom 404 error pageto redirect users back to the site in the event of a 404 error.
+
+-**500 Error Page**: A custom 503 error pageto redirect users back to the site in the event of a 500 error.
+
+-**403 Error Page**: A custom 505 error page to redirect users back to the site in the event of a 403 error.
+
+
+### Wireframes:
+
+
+### Features:
+
+#### Interactive Features:
+
+The Tipples website has been built around the principles of CRUD (Create, Read, Update, Delete), meaning these actions are all avaliable:
+
+- **Register**: The site visitor can add their details to open an account on the site.
+- **Login**: The site visitor can login to the site if they are an existing user.
+- **Contact**: Any User can contact the site owner by email.
+- **Sort**: Any user can sort the products by price, name or category.
+- **Search**: Any user can search the site using keywords.
+- **Checkout**: Any user can make a secure purchase using Stripe.
+- **Add Product**: The superuser (Admin) can add products to the database.
+- **Edit Product**: The superuser (Admin) can edit products that are already in the database.
+- **Delete Product**: The superuser (Admin) can delete products that are already in the database.
+- **Add Review**: A logged in and registered user can add a review.
+- **Delete Review**: The superuser (Admin) can delete a review.
+
+#### Future Features:
+
+In future I would like to add the following features:
+
+- **Wishlist**: I would like users to be able to create a wishlist.
+- **Delivery Address**: I would like users to be able to specify different billing and delivery addresses.
+- **Paypal**: I would like users to be able to pay for their items using Paypal.
+- **Subscription**: pay monthly subscription service.
+
+## Technologies used:
+
+- The application was built on the Django full-stack framework.
+- For each section of the site a Django app was created.
+- Each app then has a views.py, urls.py file to create the pages it needs.
+- Then to create the database models a models.py file is used.
+- If there are any forms needed they are then created in the forms.py file.
+- Stripe has been used for the payment function of the e-commerce shop.
+- Heroku was used to deploy the application.
+- Amazon AWS was used to store. the static files and the image files.
+
+### Languages Used.
+
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+
+  - HTML5 was used to create the content and base of each page.
+
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
+
+  - CSS3 was used to then style the page and make it responsive through media queries, and interactive through using CSS transitions.
+
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+  - javaScript was used throughout the website to make the site interactive.
+
+- [Python](https://en.wikipedia.org/wiki/Python_(programming_language))
+  - Python was used to build the backend functionality of the web app.
+
+### Django and Django extensions used
+
+- [Django](https://www.djangoproject.com/)
+  - Django was used to create the project.
+
+- [Django Allauth](https://django-allauth.readthedocs.io/en/latest/)
+  - Django allauth was used to create the user sign-in function for the site.
+
+- [Django Countries](https://pypi.org/project/django-countries/)
+  - Django Countries was used for the countries select field in the order form.
+
+- [Django Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/)
+  - Django Crispy Forms were used to utilise the bootstrap form classes.
+
+
+
+### Frameworks Libraries and Programs.
+
+- [Stripe](https://stripe.com/ie)
+
+  - CStripe has been used for the payment section of the site.
+
+- [Heroku](https://signup.heroku.com/)
+
+  - Heroku was used to deploy the website.
+
+- [Amazon AWS](https://aws.amazon.com/)
+
+  - Amazon AWS was used to store the static files and the images for the site.
+
+
+- [Gunicorn](https://gunicorn.org/)
+
+  - Gunicorn was used for deploying the project to Heroku.
+
+- [Google Fonts](https://fonts.google.com/)
+
+  - I imported the Mulish font from google fonts and used it consistently across the site.
+
+- [Bootstrap 4](https://getbootstrap.com/)
+
+  - Bootstrap 4 was used for its grid system and its form inputs and its helper classes.
+
+- [dbdiagram.io](https://dbdiagram.io/)
+
+  - I used this to make a diagram of my database schema.
+
+- [Git](https://git-scm.com/)
+
+  - Git was used as a version control in the terminal.
+
+- [Github](https://github.com/)
+
+  - Github was used to create and store the project repository.
+
+- [Gitpod](https://gitpod.io/)
+
+  - Gitpod was used to create my files and code the project.
+
+- [Balsamiq](https://balsamiq.com/)
+
+  - Balsamiq was used to create Wireframes for the project during the initial planning stage.
+
+- [Am I responsive](http://ami.responsivedesign.is/)
+
+  - Am I responsive was used to taking screenshots of the page at different screen sizes.
+
+- [Font Awesome](https://fontawesome.com/)
+
+    -Font Awesome was used for icons on the site.
+
+## Information Architechture:
+
+### Database Choice:
+
+- SQLight was used in development, as it comes pre-installed with Django.
+- PostgreSQL was used for the deployed site, as it is offered as an optional add-on by Heroku.
+
+### Data Modeling:
+
+- The image below was produced using [dbdiagram.io](https://dbdiagram.io/)
+
+<img src="media/db-layout.png" style="margin: auto" />
+
+## Accessibility:
+
+### Alt Tags:
+
+In order to ensure that all images are accessible for those using a screen reader, alt tag are used throughout the site.
+
+## Testing
+
+- #### Testing.
+  - The testing section for this site is located at the following link.
+    - [Testing file](TESTING.md)
+
+## Deployment:
+
+#### Github, Gitpod, Git, Heroku, and Amazon AWS.
+
+- #### Project setup.
+ - The project was set up on GitHub using the Code Institue Gitpod Template.
+  - I located the template on the Code Institute GitHub page and clicked the use template button.
+  - I then named my repository and created it.
+  - Once the repository was created I was able to open it with Gitpod.
+  - I could then use the terminal to create files and folders and start coding the project.
+  - Throughout the project, I used git to add my changes to version control in GitHub.
+  - To commit I added the file to the staging area with the 
+    ```
+        git add <filename>
+    ```
+    ```
+        git commit -m "<commit message>"
+    ```
+    ```
+        git push
+
+### Heroku deployment with AWS:
+
+- The tipples website was deployed to [Heroku](https://www.heroku.com/) using the following steps:
+
+1. Install gunicorn, psycopg2-binary and dj-database-url using the ```PIP Install``` command.
+2. Freeze all the requirements for the project into a requirements.txt file using the ```pip3 freeze > requirements.txt``` command.
+3. Create a procfile, with the following inside it: ```web: gunicorn tipples.wsgi:application```.
+4. Push these changes to GitHub, using ```git add .```, ```git commit -m``` and ```git push``` commands.
+5. Navigate to [Heroku](https://www.heroku.com/), and login or create an account.
+6. Once logged in, click on 'resources'.
+7. From the add-ons search bar, add the Heroku Postgres DB, select the free account, and then submit order form to add it to the project.
+8. From the app's dashboard, click on 'settings', and then 'reveal config vars' in order to set the necessary configuration variables for the project. 
+It should look like this: 
+
+| Key                   | Value                      |
+|-----------------------|----------------------------|
+| AWS_ACCESS_KEY_ID     | Your AWS Access Key        |
+| AWS_SECRET_ACCESS_KEY | Your AWS Secret Access Key |
+| DATABASE_URL          | Your Database URL          |
+| EMAIL_HOST_PASS       | Your Email Password        |
+| EMAIL_HOST_USER       | Your Email Address         |
+| SECRET_KEY            | Your Secret Key            |
+| STRIPE_PUBLIC_KEY     | Your Stripe Public Key     |
+| STRIPE_SECRET_KEY     | Your Stripe Secret Key     |
+| STRIPE_WH_SECRET      | Your Stripe WH Key         |
+| USE_AWS               | TRUE                       |
+
+9. Back on the main dashboard, click on 'deploy', and then under the 'Deployment' method section, select GitHub and 'Automatic Deploys'.
+10. Ensure that in settings.py, the following code is commented out:
 ```
-pkill uptime.sh
-rm .vscode/uptime.sh
+Database
+ https://docs.djangoproject.com/en/3.1/ref/settings/#databases
+```
+and the at the following code is added:
+```
+DATABASES = {
+        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+    }
+```
+11. Make migrations using the following command:
+```
+python3 manage.py makemigrations
+```
+and migrate the database models to the Postgres database using the following command:
+```
+python3 manage.py migrate
+```
+12. Load the fixtures from the 'product_types.json' file and then from the 'products.json' file - which are contained in the 'fixtures' folder into the database. 
+This is done by using the following command:
+```
+python3 manage.py loaddata <file name>
+```
+13. Create a new superuser with the following command:
+```
+python3 manage.py createsuperuser
+```
+and then enter chosen email, username and password.
+14. In settings.py, contain the previously entered database setting in an if statement, and add an else condition, so that different databases are 
+used depending on the environment.
+```
+if 'DATABASE_URL' in os.environ:
+    DATABASES = {
+        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+    }
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': BASE_DIR / 'db.sqlite3',
+        }
+    }
+```
+15. Disable 'COLLECTSTATIC' with the fillowing code: ``` heroku config:set DISABLE_COLLECTSTATIC=1 ``` 
+so that Heroku doesn't attempt to collect the static files.
+16. Add ```ALLOWED_HOSTS = ['milestone-project-04.herokuapp.com', 'localhost']``` to settings.py.
+17. Add Stripe environment variables to settings.py.
+18. Push to Heroku using the following command:
+```git push heroku main```
+
+### Amazon Web Services:
+
+All Static and media files for the deployed version of the site are hosted in a Amazon Web Services(AWS) S3 bucket. 
+In order to create your own bucket, please follow the instructions on the AWS website 
+[Here](https://docs.aws.amazon.com/AmazonS3/latest/userguide/creating-bucket.html)
+
+1. In the gitpod terminal, install boto3 and django-storages using the following commands:
+```pip3 install boto3 ``` and ```pip3 install django-storages```
+2. Freeze the new requirements into the 'requirements.txt' file using the ```pip3 freeze > requirements.txt``` command
+3. Add 'storages' to INSTALLED_APPS in settings.py.
+4. Add the following code to settings.py in order to link the AWS bucket to the website:
+```
+if 'USE_AWS' in os.environ:
+    # Cache control
+    AWS_S3_OBJECT_PARAMETERS = {
+        'Expires': 'Thu, 31 Dec 2099 20:00:00 GMT',
+        'CacheControl': 'max-age=94608000',
+    }
+
+    # Bucket Config
+    AWS_STORAGE_BUCKET_NAME = 'pf-tipples'
+    AWS_S3_REGION_NAME = 'eu-west-1'
+    AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
+    AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
+    AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com'
+
+    # Static and media files
+    STATICFILES_STORAGE = 'custom_storages.StaticStorage'
+    STATICFILES_LOCATION = 'static'
+    DEFAULT_FILE_STORAGE = 'custom_storages.MediaStorage'
+    MEDIAFILES_LOCATION = 'media'
+
+    # Override static and media URLs in production
+    STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{STATICFILES_LOCATION}/'
+    MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{MEDIAFILES_LOCATION}/'
+```
+5. Create a custom_storages.py file in the root level of the project. Inside it, include the locations of the Static Storage and Media Storage.
+6. Delete DISABLE_COLLECTSTATIC from the Heroku Config Variables.
+7. Finally, push to GitHub, and all changes should be automatically pushed to Heroku too.
+
+### Making a Local Clone:
+In order to make a local clone of the tipples website, enter ```git clone https://github.com/atiqbeenrahim/milestone-project-04.git``` into the terminal. 
+
+
+Next, create an .env.py file in the root directory of the project, and add it to the .gitignore file. 
+The following code needs to be added to the .env.py file:
+```
+import os  
+os.environ["DEVELOPMENT"] = "True"    
+os.environ["SECRET_KEY"] = "<Your Secret Key>"
+os.environ["STRIPE_PUBLIC_KEY"] = "<Your Stripe Public Key>"    
+os.environ["STRIPE_SECRET_KEY"] = "<Your Stripe Secret Key>"    
+os.environ["STRIPE_WH_SECRET"] = "<Your Stripe WH Secret Key>"   
 ```
 
-**Anything more?**
+Then make sure that the required packages are installed by running the following command: 
+```pip install -r requirements.txt```
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+Make migrations and then migrate in order to create a database, by running the following commands:
+```python3 manage.py makemigrations``` and ```python3 manage.py migrate```.
 
----
+Load the fixtures from the 'product_types.json' file and then from the 'products.json' file - which are contained in the 'fixtures' folder into the database. 
+This is done by using the following command:
+```
+    python3 manage.py loaddata <file name> 
+```
 
-Happy coding!
+Create a superuser with the following command: ```python3 manage.py runserver``` and entering your credentials.
+
+Run the app by entering the following command:
+```python3 manage.py runserver```
+
+## Credits:
+
+### Code:
+
+- **Code Institute Boutique Ado Project**:
+This project was adapted from the Code Institute 'Boutique Ado' project. Commenting for this should be evident in the code if not this is a over-sight
+and not intended to disguise the use of 'Boutique Ado' as a template.
+
+- **Code Institute Slack Channels**: Slack was used extensively for debugging, and to bounce ideas off other students and CI staff members.
+
+- **W3 Schools**: Referenced during production no exact copied code used.
+
+- **StackOverFlow**:  Referenced during production no exact copied code used.
+
+### Images: 
+
+- All product and hero images are from [UnSplash](https://unsplash.com/)
+- The map image is from [GoogleMaps](https://www.google.com/maps)
+- The favicon image, is from [Favicon](https://favicon.io/favicon-generator/)
+
+
+### Content:
+
+- Drinks descriptions are taken from [MasterofMalt](https://www.masterofmalt.com/)
+                                     [WhiskyExchange](https://www.thewhiskyexchange.com/)
+
+## Acknowledgements:
