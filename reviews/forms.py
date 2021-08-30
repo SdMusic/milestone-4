@@ -38,4 +38,6 @@ class ReviewForm(forms.ModelForm):
                 self.fields[field].widget.attrs['placeholder'] = placeholder
                 self.fields[field].label = False
 
-            self.fields[field].widget.attrs['class'] = 'mb-3 rounded-0 profile-form'
+            self.fields[field].widget.attrs['class'] = (
+                'mb-3 rounded-0 profile-form'
+                )
