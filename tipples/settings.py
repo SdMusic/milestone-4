@@ -51,7 +51,6 @@ INSTALLED_APPS = [
     'reviews',
     'about',
     'contact',
-    'subscriptions',
 
     # OTHER
 
