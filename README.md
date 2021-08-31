@@ -106,7 +106,7 @@ The tipples website is a real world application, designed for the selling of fit
 
 ### Imagery:
 
-- On the landing page, the Hero image represents 'tipples' in the name of the company. As image is about fitness and toughness which represents Beast in fitness world. It was downloaded from [pixabay](https://pixabay.com/)
+- On the landing page, the Hero image represents 'tipples' in the name of the company. The image is to indicate choice and selection of drinks which is the reason for a well stock cocktail bar. It was downloaded from [UnSplash](https://unsplash.com/)
 
 ![tipples Hero Image](media/homepage_background.jpg)
 
