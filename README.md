@@ -2,7 +2,7 @@
 
 # **TIPPLES - E-commerce MILESTONE 4 PROJECT**
 
-<img src="media/read-me-milestone4.png" style="margin: auto" />
+<img src="readme/media/read-me-milestone4.png" style="margin: auto" />
 
 An e-commerce site for a Independant alocohol store.
 
@@ -193,6 +193,7 @@ The tipples website is a real world application, designed for the selling of fit
 
 ### Wireframes:
 
+Are available in pdf [here](readme/wireframes/wireframe-pdf.pdf)
 
 ### Features:
 
@@ -307,10 +308,6 @@ In future I would like to add the following features:
 
   - Gitpod was used to create my files and code the project.
 
-- [Balsamiq](https://balsamiq.com/)
-
-  - Balsamiq was used to create Wireframes for the project during the initial planning stage.
-
 - [Am I responsive](http://ami.responsivedesign.is/)
 
   - Am I responsive was used to taking screenshots of the page at different screen sizes.
@@ -328,9 +325,93 @@ In future I would like to add the following features:
 
 ### Data Modeling:
 
+
+### Category Model
+
+| Name          | Database Key  | Field Type | Type Validation |
+| ------------- | ------------- | ---------- | --------------- |
+| Name          | name          | CharField  | max_length=254  |
+| Friendly Name | friendly_name | CharField  | max_length=254  |
+
+
+### Product Model
+
+| Name        | Database Key | Field Type    | Type Validation                                              |
+| ----------- | ------------ | ------------- | ------------------------------------------------------------ |
+| Category    | category     | ForeignKey    | "Category", null=True, blank=True, on_delete=models.SET_NULL |
+| SKU         | sku          | CharField     | max_length=254, null=True, blank=True                        |
+| Name        | name         | CharField     | max_length=254                                               |
+| County      | county       | CharField     | "County", null=True, blank=True, on_delete=models.SET_NULL   |
+| Description | description  | TextField     |                                                              |
+| Price       | price        | DecimalField  | max_digits=6, decimal_places=2                               |
+| Rating      | rating       | Decmial Field | max_digits=6, decimal_places=0, null=True, blank=True        |
+| ABV         | abv          | DecimalField   | max_digits=6, decimal_places=2                              |
+| Image       | image        | ImageField    | null=True, blank=True                                        |
+
+### **Profiles** App
+
+### UserProfile Model
+
+| Name                    | Database Key            | Field Type    | Type Validation                              |
+| ----------------------- | ----------------------- | ------------- | -------------------------------------------- |
+| User                    | user                    | OneToOneField | User, on_delete=models.CASCADE               |
+| Default Phone Number    | default_phone_number    | CharField     | max_length=20, null=True, blank=True         |
+| Default Street Address1 | default_street_address1 | CharField     | max_length=80, null=True, blank=True         |
+| Default Street Address2 | default_street_address2 | CharField     | max_length=80, null=True, blank=True         |
+| Default Town or City    | default_town_or_city    | CharField     | max_length=40, null=True, blank=True         |
+| Default County          | default_county          | CharField     | max_length=80, null=True, blank=True         |
+| Default Country         | default_country         | CountryField  | blank_label="Country", null=True, blank=True |
+| Default Postcode        | default_postcode        | CharField     | max_length=20, null=True, blank=True         |
+
+### **Review** App
+
+### Review Model
+
+| Name        | Database Key | Field Type    | Type Validation                       |
+| ----------- | ------------ | ------------- | ------------------------------------- |
+| User        | user         | ForeignKey    | UserProfile, on_delete=models.CASCADE |
+| Product     | product      | ForeignKey    | Product, on_delete=models.CASCADE     |
+| Title       | title        | CharField     | max_length=50                         |
+| Description | description  | TextField     |                                       |
+| Rating      | rating       | IntegerField  | choices=RATING                        |
+
+
+### **Checkout** App
+
+### Order Model
+
+| Name            | Database Key    | Field Type                      | Type Validation                                                                      |
+| --------------- | --------------- | ------------------------------- | ------------------------------------------------------------------------------------ |
+| Order Number    | order_number    | CharField                       | max_length=32, null=False, editable=False                                            |
+| User Profile    | user_profile    | ForeignKey                      | UserProfile, on_delete=models.SET_NULL, null=True, blank=True, related_name='orders' |
+| Full Name       | full_name       | CharField                       | max_length=50, null=False, blank=False                                               |
+| Email           | email           | EmailField                      | max_length=254, null=False, blank=False                                              |
+| Phone Number    | phone_number    | CharField                       | max_length=20, null=False, blank=False                                               |
+| Country         | country         | CountryField                    | blank_label='Country\*', null=False, blank=False                                     |
+| Postcode        | postcode        | CharField                       | max_length=20, null=True, blank=True                                                 |
+| Town or City    | town_or_city    | CharField                       | max_length=40, null=False, blank=False                                               |
+| Street Address1 | street_address1 | CharField                       | max_length=80, null=False, blank=False                                               |
+| Street Address2 | street_address2 | CharField                       | max_length=80, null=False, blank=False                                               |
+| County          | county          | CharField                       | max_length=80, null=True, blank=True                                                 |
+| Date            | date            | DateTimeField auto_now_add=True |                                                                                      |
+| Delivery Cost   | delivery_cost   | DecimalField                    | max_digits=6, decimal_places=2, null=False, default=0                                |
+| Order Total     | order_total     | DecimalField                    | max_digits=6, decimal_places=2, null=False, default=0                                |
+| Grand Total     | grand_total     | DecimalField                    | max_digits=6, decimal_places=2, null=False, default=0                                |
+
+### OrderLine Model
+
+| Name           | Database Key   | Field Type   | Type Validation                                                                    |
+| -------------- | -------------- | ------------ | ---------------------------------------------------------------------------------- |
+| Order          | order          | ForeignKey   | Order, null=False, blank=False, on_delete=models.CASCADE, related_name='lineitems' |
+| Product        | product        | ForeignKey   | Product, null=False, blank=False, on_delete=models.CASCADE                         |
+| Product Size   | product_size   | CharField    | max_length=2, null=True, blank=True                                                |
+| Quantity       | quantity       | IntegerField | null=False, blank=False, default=0                                                 |
+| Lineitem Total | lineitem_total | DecimalField | max_digits=6, decmial_places=2, null=False, blank=False, editable=False            |
+
+
 - The image below was produced using [dbdiagram.io](https://dbdiagram.io/)
 
-<img src="media/db-layout.png" style="margin: auto" />
+<img src="readme/media/db-layout.png" style="margin: auto" />
 
 ## Accessibility:
 
@@ -342,7 +423,7 @@ In order to ensure that all images are accessible for those using a screen reade
 
 - #### Testing.
   - The testing section for this site is located at the following link.
-    - [Testing file](TESTING.md)
+    - [Testing file](readme/TESTING.md)
 
 ## Deployment:
 
@@ -377,20 +458,23 @@ In order to ensure that all images are accessible for those using a screen reade
 6. Once logged in, click on 'resources'.
 7. From the add-ons search bar, add the Heroku Postgres DB, select the free account, and then submit order form to add it to the project.
 8. From the app's dashboard, click on 'settings', and then 'reveal config vars' in order to set the necessary configuration variables for the project. 
+
+
 It should look like this: 
 
-| Key                   | Value                      |
-|-----------------------|----------------------------|
-| AWS_ACCESS_KEY_ID     | Your AWS Access Key        |
-| AWS_SECRET_ACCESS_KEY | Your AWS Secret Access Key |
-| DATABASE_URL          | Your Database URL          |
-| EMAIL_HOST_PASS       | Your Email Password        |
-| EMAIL_HOST_USER       | Your Email Address         |
-| SECRET_KEY            | Your Secret Key            |
-| STRIPE_PUBLIC_KEY     | Your Stripe Public Key     |
-| STRIPE_SECRET_KEY     | Your Stripe Secret Key     |
-| STRIPE_WH_SECRET      | Your Stripe WH Key         |
-| USE_AWS               | TRUE                       |
+| Config Var            | Key                                                                               |
+| --------------------- | --------------------------------------------------------------------------------- |
+| AWS_SECRET_KEY_ID     | obtained when you set up AWS                                                      |
+| AWS_SECRET_ACCESS_KEY | obtained when you set up AWS                                                      |
+| DATABASE_URL          | created when you provisioned Postgres                                             |
+| EMAIL_HOST_PASS       | obtained from your email provider                                                 |
+| EMAIL_HOST_USER       | your email address                                                                |
+| SECRET_KEY            | obtained from [miniwebtool](https://miniwebtool.com/django-secret-key-generator/) |
+| STRIPE_PUBIC_KEY      | obtained from STRIPE                                                              |
+| STRIPE_SECRET_KEY     | obtained from STRIPE                                                              |
+| STRIPE_WH_SECRET      | obtained from STRIPE                                                              |
+| USE_AWS               | True                                                                              |
+
 
 9. Back on the main dashboard, click on 'deploy', and then under the 'Deployment' method section, select GitHub and 'Automatic Deploys'.
 10. Ensure that in settings.py, the following code is commented out:
