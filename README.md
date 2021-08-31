@@ -124,8 +124,8 @@ The tipples website is a real world application, designed for the selling of fit
 - **My Account**: 
     - **Login**: Login for existing users.
     - **Register**: Register as a user.
-- **Shopping Basket**:
-    - **Shopping Basket Icon**: Click here to navigate to the shopping basket page.
+- **Shopping cart**:
+    - **Shopping cart Icon**: Click here to navigate to the shopping cart page.
 - **Search**: Search the site using key words.
 - **All Products** dropdown with the following options:
     - **By Price**: Display items by price.
