@@ -6,7 +6,7 @@
 
 An e-commerce site for a Independant alocohol store.
 
-Live site available at [TIPPLES](hhttps://pf-tipples.herokuapp.com/)
+Live site available at [TIPPLES](https://pf-tipples.herokuapp.com/)
 </div>
 
 - This project aims to build a full-stack web application using Django full-stack web framework, HTML, CSS and JavaScript.
@@ -341,7 +341,6 @@ In future I would like to add the following features:
 | Category    | category     | ForeignKey    | "Category", null=True, blank=True, on_delete=models.SET_NULL |
 | SKU         | sku          | CharField     | max_length=254, null=True, blank=True                        |
 | Name        | name         | CharField     | max_length=254                                               |
-| County      | county       | CharField     | "County", null=True, blank=True, on_delete=models.SET_NULL   |
 | Description | description  | TextField     |                                                              |
 | Price       | price        | DecimalField  | max_digits=6, decimal_places=2                               |
 | Rating      | rating       | Decmial Field | max_digits=6, decimal_places=0, null=True, blank=True        |
