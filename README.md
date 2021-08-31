@@ -622,7 +622,8 @@ and not intended to disguise the use of 'Boutique Ado' as a template.
 
 ### Content:
 
-- Drinks descriptions are taken from [MasterofMalt](https://www.masterofmalt.com/)
-                                     [WhiskyExchange](https://www.thewhiskyexchange.com/)
+- Drinks descriptions are taken from:
+  - [MasterofMalt](https://www.masterofmalt.com/)
+  - [WhiskyExchange](https://www.thewhiskyexchange.com/)
 
 ## Acknowledgements:
